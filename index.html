@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Job Application</title>
+  </head>
+  <body>
+  	<h1>Job Application</h1>
+  	<div class="container">
+  	<form>
+  		<div class="input">
+  			<label for="name">Name</label>
+  			<input type="text" name="name" id="name" placeholder="Firstname Lastname">
+  		</div>
+  		<div class="input">
+  			<label for="name">Email</label>
+  			<input type="email" name="email" id="email" placeholder="email@email.com">
+  		</div>
+  		<div class="input">
+  			<label for="year">Year of Graduation</label>
+  			<input type="number" name="year" id="year">
+  		</div>
+  		<div class="input">
+  			<label>Why do you want to work with us ?</label>
+  			<textarea name="reason" id="reason" placeholder="I want to work because..."></textarea>
+  		</div>
+  		<div class="input">
+  			<label for="reason">Do you have any relevant experience? If yes, please describe it, else mention No in response.</label>
+  			<textarea name="experience" id="experience" placeholder="My experience..."></textarea>
+  		</div>
+  		<div class="input">
+  			<label for="department">Department</label>
+  			<select name="department" id="department">
+  				<option value="" selected="">Select a Department</option>
+  				<option value="Engineering">Engineering</option>
+  				<option value="Sales">Sales</option>
+  				<option value="Marketing">Marketing</option>
+  				<option value="Administration">Administration</option>
+  			</select>
+  		</div>
+  		<div class="input">
+  			<button type="submit">Submit</button>
+  		</div>
+  	</form>
+  </div>
+  <script type="text/javascript" src="app.js"></script>
+  </body>
+  </html>

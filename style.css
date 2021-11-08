@@ -1,0 +1,74 @@
+*{
+	color: #01015e;
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+h1{
+	padding: 20px;
+	max-width: 467px;
+	width: 467px;
+	margin: auto;
+}
+input{
+	display: block;
+	width: 200px;
+	line-height: 30px;
+	font-size: 18px;
+}
+
+textarea{
+	display: block;
+	width: 200px;
+	line-height: 30px;
+	font-size: 18px;	
+}
+
+select{
+	display: block;
+	width: 200px;
+	line-height: 30px;
+	font-size: 18px;
+}
+
+.input{
+	padding: 20px
+}
+
+form{
+	max-width: 467px;
+	width: 467px;
+	margin: auto;
+}
+
+button{
+	background-color: blue;
+	border-radius: 2px;
+	color: white;
+	width: 120px;
+	height: 40px;
+}
+
+#experience, #reason{
+	width: 460px;
+	overflow: scroll;
+	text-overflow: ellipsis;
+}
+
+form input, button, textarea{
+	line-height: 30px;
+	font-weight: 600;
+	font-weight: bold;
+
+}
+
+form label{
+	font-weight: 600;
+}
+
+input:focus, textarea:focus{
+	border-color: #01015e;
+	border-width: 2px;
+	background-color: #c8eff7;
+}
